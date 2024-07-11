@@ -16,8 +16,8 @@
     {% if config.theme %}
         {% if config.theme == 'system' %}
             <style>
-                @import "{{ cb_url('light-theme.css') }}" screen;
-                @import "{{ cb_url('dark-theme.css') }}" screen and (prefers-color-scheme: dark);
+                @import "{{ cb_url('light-theme.css') }}" screen and (prefers-color-scheme: light);
+                @import "{{ cb_url('dark-theme.css') }}" screen;
             </style>
         {% else %}
             <link rel="stylesheet" href="{{ cb_url(config.theme + '-theme.css') }}"/>
@@ -26,7 +26,7 @@
         <link rel="stylesheet" href="{{ cb_url(('dark' if config.dark else 'light') + '-theme.css') }}"/>
     {% endif %}
     <style>{{ config.style }}</style>
-    <title>{{ clean_query(query) }} - Whoogle Search</title>
+    <title>{{ clean_query(query) }} - Mini Search</title>
 </head>
 <body>
 {{ search_header|safe }}
