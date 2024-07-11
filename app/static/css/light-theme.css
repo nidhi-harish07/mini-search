@@ -1,3 +1,17 @@
+:root {
+    --whoogle-page-bg: #ffffff; /* White background */
+    --whoogle-text: #000000; /* Black text */
+    --whoogle-contrast-text: #333333; /* Dark gray for contrast text */
+    --whoogle-result-url: #1a0dab; /* Blue for result URLs */
+    --whoogle-result-bg: #f1f1f1; /* Light gray for result background */
+    --whoogle-divider: #dcdcdc; /* Light gray for dividers */
+    --whoogle-logo: #1a73e8; /* Blue for the logo */
+    --whoogle-result-title: #0000ee; /* Standard blue for link titles */
+    --whoogle-result-visited: #551a8b; /* Purple for visited links */
+    --whoogle-element-bg: #e0e0e0; /* Light gray for elements */
+    --whoogle-secondary-text: #666666; /* Medium gray for secondary text */
+}
+
 html {
     background: var(--whoogle-page-bg) !important;
 }
@@ -69,7 +83,6 @@ select {
 .LKSyXe {
     background-color: var(--whoogle-divider) !important;
 }
-
 
 a:visited h3 div {
     color: var(--whoogle-result-visited) !important;
