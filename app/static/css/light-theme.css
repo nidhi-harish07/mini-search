@@ -13,11 +13,11 @@
 }
 
 html {
-    background: var(--whoogle-page-bg) !important;
+    background: rgba(247, 248, 248, 0.5) !important;
 }
 
 body {
-    background-color: #bfbfbf;
+    background-color: rgba(247, 248, 248, 0.5);
 }
 
 div {
@@ -42,7 +42,7 @@ li {
 }
 
 textarea {
-    background: var(--whoogle-page-bg) !important;
+    background: white;
     color: var(--whoogle-text) !important;
 }
 
