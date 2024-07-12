@@ -1,15 +1,15 @@
 :root {
-    --whoogle-page-bg: #ffffff; /* White background */
-    --whoogle-text: #000000; /* Black text */
-    --whoogle-contrast-text: #333333; /* Dark gray for contrast text */
-    --whoogle-result-url: #1a0dab; /* Blue for result URLs */
-    --whoogle-result-bg: #f1f1f1; /* Light gray for result background */
-    --whoogle-divider: #dcdcdc; /* Light gray for dividers */
-    --whoogle-logo: #1a73e8; /* Blue for the logo */
-    --whoogle-result-title: #0000ee; /* Standard blue for link titles */
-    --whoogle-result-visited: #551a8b; /* Purple for visited links */
-    --whoogle-element-bg: #e0e0e0; /* Light gray for elements */
-    --whoogle-secondary-text: #666666; /* Medium gray for secondary text */
+    --whoogle-page-bg: linear-gradient(to right, #FDFCFB, #E2D1C3); /* Gradient background */
+    --whoogle-text: #2c2c2c; /* Dark gray text for better readability */
+    --whoogle-contrast-text: #4b4b4b; /* Slightly lighter dark gray for contrast text */
+    --whoogle-result-url: #0056b3; /* Medium blue for result URLs */
+    --whoogle-result-bg: #ffffff; /* White for result background to stand out against gradient */
+    --whoogle-divider: #c8c8c8; /* Slightly darker light gray for dividers */
+    --whoogle-logo: #ff6f61; /* Coral color for the logo to pop against the gradient */
+    --whoogle-result-title: #00509e; /* Medium blue for link titles */
+    --whoogle-result-visited: #800080; /* Purple for visited links */
+    --whoogle-element-bg: #f7f7f7; /* Very light gray for elements to maintain a clean look */
+    --whoogle-secondary-text: #808080; /* Medium gray for secondary text */
 }
 
 html {
