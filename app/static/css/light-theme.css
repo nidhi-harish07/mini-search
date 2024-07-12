@@ -101,7 +101,7 @@ div span {
 }
 
 input {
-    background-color: var(--whoogle-page-bg) !important;
+    background-color: white !important;
     color: var(--whoogle-text) !important;
 }
 
