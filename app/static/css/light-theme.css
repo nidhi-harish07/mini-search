@@ -47,7 +47,7 @@ textarea {
 }
 
 select {
-    background: var(--whoogle-page-bg) !important;
+    background: white;
     color: var(--whoogle-text) !important;
 }
 
