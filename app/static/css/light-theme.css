@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    background: var(--whoogle-page-bg) !important;
+    background: rgba(247, 248, 248, 0.5);
 }
 
 div {
@@ -115,7 +115,7 @@ input {
 }
 
 .search-container {
-    background-color: var(--whoogle-page-bg) !important;
+    background-color: white;
 }
 
 #search-submit {
