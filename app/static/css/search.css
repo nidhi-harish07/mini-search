@@ -62,6 +62,7 @@ details summary span {
 	float: left;
 	width: 25px;
 	padding-right: 5px;
+	display: none;
 }
 
 .has-favicon .sCuL3 {
