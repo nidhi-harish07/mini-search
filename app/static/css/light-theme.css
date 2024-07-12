@@ -1,14 +1,14 @@
 :root {
-    --whoogle-page-bg: #e7e8e8; /* Gradient background */
+    --whoogle-page-bg: rgba(247, 248, 248, 0.5); /* Gradient background */
     --whoogle-text: #2c2c2c; /* Dark gray text for better readability */
     --whoogle-contrast-text: #4b4b4b; /* Slightly lighter dark gray for contrast text */
     --whoogle-result-url: #0056b3; /* Medium blue for result URLs */
-    --whoogle-result-bg: #ffffff; /* White for result background to stand out against gradient */
+    --whoogle-result-bg: rgba(247, 248, 248, 0.5); /* White for result background to stand out against gradient */
     --whoogle-divider: #c8c8c8; /* Slightly darker light gray for dividers */
     --whoogle-logo: #ff6f61; /* Coral color for the logo to pop against the gradient */
     --whoogle-result-title: #00509e; /* Medium blue for link titles */
     --whoogle-result-visited: #800080; /* Purple for visited links */
-    --whoogle-element-bg: #f7f7f7; /* Very light gray for elements to maintain a clean look */
+    --whoogle-element-bg: #bfbfbf; /* Very light gray for elements to maintain a clean look */
     --whoogle-secondary-text: #808080; /* Medium gray for secondary text */
 }
 
