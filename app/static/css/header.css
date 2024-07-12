@@ -210,10 +210,15 @@ a.header-tab-a:visited {
 
 .adv-search {
     font-size: 30px;
+    color: #000; /* Set text color to black for visibility in light mode */
+    background-color: #fff; /* Set background color to white */
+    padding: 5px; /* Add some padding for better visibility */
+    border: 1px solid #000; /* Optional: Add a border for better visibility */
 }
 
 .adv-search:hover {
     cursor: pointer;
+    background-color: #f0f0f0; /* Slightly change background on hover for visual feedback */
 }
 
 #adv-search-toggle {
