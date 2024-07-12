@@ -1,5 +1,5 @@
 :root {
-    --whoogle-page-bg: linear-gradient(to right, #FDFCFB, #E2D1C3); /* Gradient background */
+    --whoogle-page-bg: #e7e8e8; /* Gradient background */
     --whoogle-text: #2c2c2c; /* Dark gray text for better readability */
     --whoogle-contrast-text: #4b4b4b; /* Slightly lighter dark gray for contrast text */
     --whoogle-result-url: #0056b3; /* Medium blue for result URLs */
