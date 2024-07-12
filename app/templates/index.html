@@ -65,7 +65,7 @@
     </div>
     <form id="search-form" action="search" method="{{ 'get' if config.get_only else 'post' }}">
         <div class="search-fields">
-            <div class="autocomplete">
+            <div class="autocomplete" style="background-color: white";>
                 {% if config.preferences %}
                     <input type="hidden" name="preferences" value="{{ config.preferences }}" />
                 {% endif %}
