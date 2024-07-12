@@ -210,10 +210,10 @@ a.header-tab-a:visited {
 
 .adv-search {
     font-size: 30px;
-    color: #000; /* Set text color to black for visibility in light mode */
+    color: black; /* Set text color to black for visibility in light mode */
     background-color: #fff; /* Set background color to white */
     padding: 5px; /* Add some padding for better visibility */
-    border: 1px solid #000; /* Optional: Add a border for better visibility */
+    border: 1px solid #fff; /* Optional: Add a border for better visibility */
     display: inline-block; /* Ensure it remains an inline element with block properties */
 }
 
